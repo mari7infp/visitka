@@ -1,0 +1,55 @@
+header{
+    background-image: url('https://avatars.yandex.net/get-music-content/13911897/37888af0.a.33602577-1/m1000x1000?webp=false');
+    background-repeat:repeat;
+    background-position: center;
+    background-attachment:scroll;
+    background-size: cover; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 6px;
+  }
+
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    display: flex;
+    justify-content: center; 
+}
+#h1{
+    background-color: #347f9a;
+    border-radius: 8%;
+}
+.tex{
+    color:black;
+}
+
+.container {
+    max-width: 800px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.info, .awards, .skills-section {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#showSkills {
+    padding: 10px 15px;
+    background-color: #347f9a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
